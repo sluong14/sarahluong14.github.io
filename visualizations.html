@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarah Luong | Visualizations</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="vis.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Sarah Luong</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="visualizations.html" aria-current="page">Visualizations</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Visualizations</h1>
+      <p class="muted">
+        All drawings on this page are generated with JavaScript and rendered as SVG.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>SVG Visualization (Bar Chart)</h2>
+        <p class="small muted">Example dataset → bars + labels.</p>
+        <div id="viz1" class="viz-box" aria-label="Bar chart visualization"></div>
+      </article>
+
+      <article class="card">
+        <h2>Creative SVG Art</h2>
+        <p class="small muted">Generative pattern you can tweak (click to randomize).</p>
+        <button class="button button-ghost" id="regen" type="button">Regenerate</button>
+        <div id="viz2" class="viz-box" aria-label="Generative art"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="muted small">Tip: open DevTools console if something doesn’t render.</p>
+  </footer>
+</body>
+</html>
