@@ -13,18 +13,18 @@ html: strucuturing content the website, CSS: for layout, styling, and responsive
 The website consists of two main pages:
 
 ### Home (`index.html`)
-- Personal introduction and overview  
+- Bio and overview  
 - Education, skills, and experience sections  
-- Contact form with basic client-side validation  
+- Contact form 
 - Links to GitHub and LinkedIn  
 
 ### Visualizations (`visualizations.html`)
 - An SVG bar chart visualization created using JavaScript  
-- A creative SVG visualization created externally
+- A creative SVG visualization made externally
 
-Navigation between pages is handled through the header navigation bar, with a contact link that scrolls to the contact section on the homepage.
+To navigate between pages, I created the header navigation bar, with a contact link that scrolls to the contact section on the homepage.
 
 ## JavaScript Files
-main.js: Handles simple interactivity on the homepage, including contact form validation and small dynamic updates.
-vis.js Responsible for generating and rendering SVG visualizations using JavaScript.
+main.js: simple interactivity on the homepage, including contact form validation and small dynamic updates.
+vis.js: for creating SVG visualizations using JavaScript.
 
