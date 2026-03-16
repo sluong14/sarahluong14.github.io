@@ -213,6 +213,21 @@ textarea {
   padding: 1rem 4vw;
 }
 
+/* --- */
+.d3-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.d3-wrapper svg {
+  border: 2px solid black;
+  background: #f8f8f8;
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 860px){
   .hero{ grid-template-columns: 1fr; }
   .grid{ grid-template-columns: 1fr; }
